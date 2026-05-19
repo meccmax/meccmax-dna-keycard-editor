@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DNA Keycards Config Editor</title>
-    <meta name="description" content="Full configuration editor for the DayZ DNA Keycards mod. Import, edit, validate, and export all 14 config files." />
+    <meta name="description" content="Full GUI configuration editor for the DayZ DNA Keycards mod. Import, edit, validate, and export all 14 config files with exact schema matching." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/dna-keycards-editor/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="DNA Keycards Config Editor" />
+    <meta property="og:description" content="Full GUI configuration editor for the DayZ DNA Keycards mod. Import, edit, validate, and export all 14 config files." />
+    <meta property="og:type" content="website" />
+
+    <!-- Prevent search engines indexing a tool page -->
+    <meta name="robots" content="noindex, nofollow" />
+
+    <style>
+      /* Prevent flash of white background before React mounts */
+      html, body, #root { background: #080808; margin: 0; padding: 0; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
